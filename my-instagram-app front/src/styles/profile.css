@@ -1,0 +1,65 @@
+.profile{}
+.profile-title{
+    color: white;
+}
+.profile-image{
+    display: flex;
+    width: 13%;
+    margin:60px 0 0 180px;
+}
+.profile-img{
+    border-radius:50% ;
+}
+
+.header-buttons{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    display: flex;
+    margin: 0 250px;
+    justify-content: first baseline;
+    align-items: center;
+   position: absolute;
+    
+   
+}
+.subscribe-btn{
+    font-size: 14px !important;
+    height: 30px;
+    background-color: #3897f0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 12px;
+   margin: 0 0 0 20px;
+    width: 120px;  
+}
+.sendMsg-btn{
+    
+    font-size: 14px !important;
+    width: 180px;
+    height: 30px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-left: 5px;
+    background-color: rgb(86, 82, 82);
+    
+}
+.public-title{
+   margin-top:100px ;
+  position: absolute;
+  display: flex;
+  width: 500px;
+  font-size: 16px;
+}
+.subscribers-title{
+ margin: 0  20px ;
+}
+.profileTabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

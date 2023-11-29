@@ -1,0 +1,45 @@
+/* ProfileTabs.css */
+.tabs-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    box-sizing: border-box; /* Учтите ширину границы при расчете размера элемента */
+  }
+  
+  
+  
+  .profile-tabs{
+  
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: center;
+ 
+  }
+  .tabs-btn{
+    border: none;
+    margin: 0 20px ;
+    font-size: 14px;
+    padding: 0;
+  
+  }
+  .tabs-btn:active {  
+    border-top: 0.3px solid white ;
+    color: white; 
+  }
+  .Line{
+    border-top: 2px solid rgb(31, 30, 30) ;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    
+  }

@@ -1,0 +1,14 @@
+.homepage{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.homepage-nav{
+    flex: 0.2;
+}
+.homepage-profle{
+    flex: 0.8;
+}
