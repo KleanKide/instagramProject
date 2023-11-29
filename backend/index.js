@@ -10,7 +10,7 @@ import * as UserController from './controllers/UserController.js'
 
 
 
-mongoose.connect('mongodb+srv://admin:admin@cluster0.26jq1ww.mongodb.net/blog?retryWrites=true&w=majority')
+mongoose.connect('')//mongoDB server
   .then(() => console.log('DB Ok'))
   .catch((err) => console.log('DB error', err));
 
